@@ -1,17 +1,15 @@
+
 #include <stdio.h>
 
-int main(void)
+int main()
 {
-    int a, b, sum;
-
-    printf("Enter two numbers: ");
-    if (scanf("%d %d", &a, &b) != 2) {
-        printf("Invalid input\n");
-        return 1;
+    int n,i,a=0;
+    printf("enter a number");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        a=a+i;
     }
-
-    sum = a + b;
-    printf("Sum = %d\n", sum);
-
+printf("sum=%d",a);
     return 0;
 }
