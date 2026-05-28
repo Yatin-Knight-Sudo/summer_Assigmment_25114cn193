@@ -4,12 +4,13 @@ int main()
 {
     int n,i,a=1;
     printf("enter a number");
-    scanf("%d",&n);
-    for(i=1;i<=10;i++)
-    {
-        a=n*i;
-        printf("%d*%d=%d\n",n,i,a);
-    }
 
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        a=a*i;
+       
+    }
+ printf("factorial of %d = %d\n",n,a);
     return 0;
 }
