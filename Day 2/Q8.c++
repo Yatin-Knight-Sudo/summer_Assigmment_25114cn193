@@ -2,15 +2,10 @@
 #include <cmath>
 using namespace std;
 int main() {
-    int num,s=1,t,k,c=0,u;
+    int num,s=0,t,k,c=0,u;
     cout << "Enter the number ";
     cin >> num;
 k=num;u=num;
-while(k>0)
-    {
-        k=k/10;
-        c++;
-    }
 
     while(num>0)
     {
