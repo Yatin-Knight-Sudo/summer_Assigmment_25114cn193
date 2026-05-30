@@ -21,7 +21,7 @@ int main() {
         }
         
     }
-    printf("%d", b);
+    printf("%d ", b);
     
     
 
