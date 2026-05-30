@@ -20,5 +20,5 @@ int main()
     {
         cout<<"the number is not a prime number";
     }
-
+return 0;
 }
