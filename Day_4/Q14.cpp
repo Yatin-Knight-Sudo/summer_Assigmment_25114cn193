@@ -4,7 +4,8 @@ int main ()
 {
     int n,i,t1=0,t2=1,c;
     i=0 ;
-    
+    cout << "Enter the number of terms: ";
+    cin >> n;
     while(i<=n)
 
     {
