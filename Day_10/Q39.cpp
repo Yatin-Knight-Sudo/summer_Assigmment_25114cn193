@@ -14,9 +14,9 @@ for(i=1;i<=5;i++)
     {
         cout << j;
     }c--;
-    for(l=j;l>1;l--)
+    for(l=i-1;l>=1;l--)
     {
-        cout << "*";
+        cout << l;
     }
     cout << "\n";
 }
